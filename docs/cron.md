@@ -26,3 +26,16 @@ More graphically they would look like this:
 An example command would be “`0 0 * * * /etc/cron.daily/script.sh`”. This
 would mean that the shell script will exactly execute at midnight every
 night. 
+
+
+## Hooking WP-Cron Into the System Task Scheduler
+
+A daily call to your site’s WordPress Cron that triggers at midnight every night could look similar to:
+
+```
+0 0 * * * wget http://YOUR_SITE_URL/wp-cron.php
+```
+
+Reference:
+
+[Hooking WP-Cron Into the System Task Scheduler](https://developer.wordpress.org/plugins/cron/hooking-into-the-system-task-scheduler/)
