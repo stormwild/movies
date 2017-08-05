@@ -37,10 +37,10 @@ Also check Sober [docs](https://github.com/soberwp/controller#usage)
 
 ## Register Cron
 
-Assuming the path to your WordPress installation is at `/var/www/html` add the following line to cron.
+Create cron job.
 
 ```
-0 0 * * * php /var/www/html/wp-content/themes/movies/app/cron.php >/dev/null 2>&1
+0 0 * * * wget https://wordpress-stormwild.c9users.io/wp-cron.php?doing_wp_cron >/dev/null 2>&1
 ```
 
 ## Cron
