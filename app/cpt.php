@@ -40,7 +40,7 @@ add_action('init', function () {
         'label'                 => __('Movie', 'sage'),
         'description'           => __('Movies', 'sage'),
         'labels'                => $labels,
-        'supports'              => array( ),
+        'supports'              => array( 'title', 'editor', 'thumbnail' ),
         'taxonomies'            => array( 'category', 'post_tag' ),
         'hierarchical'          => false,
         'public'                => true,
