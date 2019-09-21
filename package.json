@@ -99,7 +99,7 @@
     "copy-globs-webpack-plugin": "^0.2.0",
     "css-loader": "^0.28.4",
     "cssnano": "~4.0.0-rc.1",
-    "eslint": "~4.2",
+    "eslint": "~4.18",
     "eslint-loader": "~1.9",
     "eslint-plugin-import": "~2.7",
     "extract-text-webpack-plugin": "~3.0",
