@@ -107,7 +107,7 @@
     "imagemin-mozjpeg": "~6.0",
     "imagemin-webpack-plugin": "~1.5.0-beta.0",
     "import-glob": "~1.5",
-    "node-sass": "~4.5",
+    "node-sass": "~7.0",
     "postcss-loader": "~2.0",
     "postcss-safe-parser": "~3.0",
     "resolve-url-loader": "~2.1",
